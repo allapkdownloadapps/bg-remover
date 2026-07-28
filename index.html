@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG Remover - Free AI Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="main">
+
+    <h1>BG Remover</h1>
+    <h3>Remove Image Background Online</h3>
+
+    <div class="box">
+
+        <input type="file" id="upload" accept="image/*">
+
+        <div class="image-area">
+            <img id="imagePreview" src="" alt="Preview">
+        </div>
+
+        <button onclick="removeBG()">
+            Remove Background
+        </button>
+
+        <a id="download" style="display:none;">
+            Download PNG
+        </a>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
